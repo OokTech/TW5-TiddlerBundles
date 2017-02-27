@@ -1,0 +1,22 @@
+title: $:/plugins/OokTech/TiddlerBundles/readme
+
+Action widget that packages multiple tiddlers together into an easily managed bundle for moving between wikis or storage.
+
+Usage:
+
+`<$action-tiddlerbundle $bundle=BundleName $filter="[!is[system]limit[10]]" $overwrite=false $action=Pack $type=Tiddler/>`
+
+|!Parameter |!Description |
+|$bundle |The name of the bundle, either for bundle creation or to select which bundle to unpack. (No default)|
+|$filter |The filter used to select which tiddlers are put into the bundle (No default)|
+|$overwrite |Set this to `true` to overwrite existing tiddlers from the bundle, set to `false` to leave existing tiddlers unaffected. (Default: `false`)|
+|$separator |The separator string used between tiddlers in the bundle |
+|$action |Pack (create bundle) or unpack (unpack tiddlers) (Default: `Pack`)|
+|$unpackFilter |A filter used to select which tiddlers to unpack from a bundle (Default: `[all[]]`)|
+|$type |`Tiddler` or `JSON` (Default: `Tiddler`) |
+
+License: [[BSD 3 Clause|$:/plugins/OokTech/CategoryLists/License]]
+
+Creator: [[OokTech|$:/plugins/OokTech/OokTechInfo]]
+
+Source: [[GitHub|https://https://github.com/OokTech/TW5-CategoryLists]]
