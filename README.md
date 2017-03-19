@@ -3,4 +3,6 @@ A plugin that lets you create bundles of tiddlers that allow you to easily move 
 
 This is a plugin for Tiddlywiki (https://github.com/Jermolene/TiddlyWiki5, http://tiddlywiki.com/)
 
-The demo site is 
+Demo Site: http://ooktech.com/TiddlyWiki/TiddlerBundles/
+
+Git Repo: https://github.com/OokTech/TW5-TiddlerBundles
